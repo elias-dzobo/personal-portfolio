@@ -53,14 +53,15 @@ import {
   SiNetlify,
   SiChartdotjs,
   SiVite,
+  SiJava,
 } from "react-icons/si";
 
 import { DiCss3, DiRuby } from "react-icons/di";
 
 export const resumeLink = "https://drive.google.com/file/d/1wkPu9i_e2uAdHmbqe0hEM9BfBheJfxkT/view?usp=sharing";
-export const repoLink = "https://github.com/mittal-parth/personal-portfolio";
+export const repoLink = "https://github.com/elias-dzobo/personal-portfolio";
 
-export const callToAction = "https://www.linkedin.com/in/mittal-parth";
+export const callToAction = "https://www.linkedin.com/in/eliasdzobo";
 
 export const navLinks = [
   {
@@ -93,11 +94,10 @@ export const educationList = [
   {
     id: "education-1",
     icon: nitk,
-    title: "National Institute of Technology Karnataka, Surathkal",
-    degree: "Bachelor of Technology",
-    duration: "December 2020 - May 2024",
-    content1: "Major: Electronics and Communication Engineering",
-    content2: "Minor: Information Technology",
+    title: "Ashesi University",
+    degree: "Bachelor of Science",
+    duration: "September 2019 - June 2023",
+    content1: "Major: Computer Science",
   },
 ];
 
@@ -107,23 +107,18 @@ export const skills = [
     items: [
       {
         id: "pl-1",
-        icon: SiCplusplus,
-        name: "C++",
-      },
-      {
-        id: "pl-2",
         icon: SiPython,
         name: "Python",
       },
       {
-        id: "pl-3",
-        icon: DiRuby,
-        name: "Ruby",
+        id: "pl-2",
+        icon: SiCplusplus,
+        name: "C++",
       },
       {
         id: "pl-4",
-        icon: SiC,
-        name: "C",
+        icon: SiJava,
+        name: "Java",
       },
       {
         id: "pl-5",
